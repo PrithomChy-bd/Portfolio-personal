@@ -1,0 +1,93 @@
+@media all and (max-width:1019px){
+    .first .left-side{
+        height: 700px;
+    }
+    .third .experience{
+        height:400px;
+    }
+}
+@media all and (max-width:851px){
+    .third .experience{
+        height:450px;
+    }
+    footer p{
+        margin-top: 150px;
+    }
+}
+@media all and (max-width:800px){
+    .third .experience{
+        height:470px;
+    }
+}
+@media all and (max-width:771px){
+    .first .left-side{
+        height: 850px;
+    }
+    .third .experience{
+        height:500px;
+    }
+    footer p{
+        margin-top: 200px;
+    }
+}
+
+@media all and (max-width:651px){
+    .second{
+        height: 600px;
+    }
+}
+
+
+@media all and (max-width:500px){
+    
+    .first{
+        height: 1000px;
+        
+    }
+    .first .left-side{
+        width: 80%;
+        box-sizing: border-box;
+        height: 700px;
+        
+        
+    }
+    .first .right-side {
+        height: 550px;
+        float: left;
+    }
+    .first .right-side img{
+        width:80% ;
+        height: auto;
+        
+    }
+
+    .second{
+        height: 100%;
+        overflow: hidden;
+    }
+    .second .left-side img{
+        width: 80%;
+        overflow: hidden;
+        height: auto;
+
+    }
+    .second .right-side{
+        float: left;
+        width: 80%;
+        height: 500px;
+    }
+
+
+    .third{
+        width: 100%;
+    }
+    .third .experience{
+        width: 80%;
+        height: 500px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    footer p{
+        margin-top: 700px;
+    }
+}
